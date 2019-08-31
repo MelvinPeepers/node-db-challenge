@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+While a Relational Databases is the actual database, SQL is the language of the Relational Databases. SQL commands directly interact with the database. 
+
 - [ ] Why do tables need a `primary key`?
+
+Tables need a primary key as a primary key uniquely identifies each row.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign  Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+We need at least 3 tables, one being an intermediary table that is going to contain two IDs. 
 
 ## Minimum Viable Product
 
