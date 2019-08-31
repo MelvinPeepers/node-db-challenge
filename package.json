@@ -4,7 +4,6 @@
   "description": "## Description",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "server": "nodemon index.js"
   },
   "repository": {
@@ -21,7 +20,9 @@
   "dependencies": {
     "and": "0.0.3",
     "dotenv": "^8.1.0",
+    "express": "^4.17.1",
     "knex": "^0.19.3",
+    "nodemon": "^1.19.1",
     "sqlite3": "^4.1.0"
   }
 }
