@@ -1,6 +1,6 @@
 
 exports.up = function(knex) {
-  return knex.schema.createTables('projects', tbl => {
+  return knex.schema.createTable('projects', tbl => {
       tbl.increments();
       tbl.string('project_name', 256).notNullable();
       tbl.string('project_description', 256);
@@ -53,4 +53,3 @@ exports.down = function(knex) {
 };
 
 // http://knexjs.org/#Schema-defaultTo defaultTo - Sets the default value for the column on an insert.
-
