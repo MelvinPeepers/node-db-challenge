@@ -1,11 +1,11 @@
 const express = require('express');
 
-const Schemes = require('./project-model.js');
+const Projects = require('./project-model.js');
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    projects.find()
+    Projects.find()
     .then(projects => {
       res.json(projects);
     })
