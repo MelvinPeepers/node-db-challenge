@@ -34,7 +34,7 @@ router.get('/', (req, res) => {
   router.post('/', (req, res) => {
     const projectData = req.body;
   
-    Users.add(projectData)
+    Projects.add(projectData)
     .then(newProject => {
       res.status(201).json(newProject);
     })
